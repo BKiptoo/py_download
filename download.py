@@ -59,7 +59,7 @@ def download_resources(url, folder_path):
         print(f"Error fetching HTML content from {url}: {e}")
 
 def main():
-    url = 'https://admin.pixelstrap.com/cion/template/index.html'
+    url = 'https://example.com/example/template/index.html'
     folder_path = 'downloaded_files'
     
     # Create folder if it doesn't exist
